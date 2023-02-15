@@ -1,0 +1,20 @@
+1. Gán giá trị true hoặc false cho biến isA khi so sánh 90 ≤ grade ≤ 100 
+
+— Sai là do viết 90 ≤ grade ≤ 100 do compiler sẽ hiểu nhầm → sửa là 90 ≤ grade && grade ≤ 100
+
+2. Ra x = 0.6 do 2 bên của phép gán đều là kiểu double
+3. Do tích 2 giá trị int được tính là 1 giá trị int, nhưng bên trái lại là biến kiểu long, do đó cần đổi giá trị int bên phải sang giá trị long nhưng 2^32 quá khả năng lưu trữ của số int.
+4. False do bên trái là double * double, bên phải là int
+5. Warning từ compiler và crash khi chạy
+6. — Error do kiểu int không nhân được với kiểu const char
+    
+    — Compiler không nói gì và in ra giá trị rác
+    
+    — Compiler báo lỗi do không hiểu cout nghĩa là gì
+    
+7. 0 / 0.75 / 0.75 / 0.75
+8. Báo lỗi do dễ gây nhầm lẫn giữa 2 biến cùng tên
+9. Arg1 chỉ tới biến có kiểu dữ liệu char
+10. Arg1 chỉ tới biến có kiểu dữ liệu int
+11. Chưa ép kiểu bên phải thành kiểu double → chia 2 số nguyên
+12. “Here”
